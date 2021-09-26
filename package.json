@@ -4,7 +4,7 @@
   "description": "creating a rpg game",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/nicoguarino/jest-another-RPG/issues"
   },
-  "homepage": "https://github.com/nicoguarino/jest-another-RPG#readme"
+  "homepage": "https://github.com/nicoguarino/jest-another-RPG#readme",
+  "devDependencies": {
+    "jest": "^27.2.2"
+  }
 }
